@@ -985,7 +985,7 @@
     (property "Value" "LED" (id 1) (at 162.56 105.7274 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 158.75 102.87 0)
+    (property "Footprint" "LED_THT:Chanzon_LED" (id 2) (at 158.75 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 158.75 102.87 0)
@@ -1083,7 +1083,7 @@
       (reference "D1") (unit 1) (value "1N4733A") (footprint "Diode_SMD:D_SMA_Handsoldering")
     )
     (path "/82b93f1d-8bb7-41d3-935d-a480541108f5"
-      (reference "D2") (unit 1) (value "LED") (footprint "")
+      (reference "D2") (unit 1) (value "LED") (footprint "LED_THT:Chanzon_LED")
     )
     (path "/2969ecd2-ca66-45d3-8f4b-c7ccf3a45bef"
       (reference "J1") (unit 1) (value "Conn_01x02_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
